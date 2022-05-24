@@ -1400,8 +1400,8 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 		x[i] = x[i] / arr[i][i];           
 	}
 
-	if ((x[0] < 0 || x[0] > 0 || x[0] == 0) || 
-		(x[1] < 0 || x[1] > 0 || x[1] == 0) || 
+	if ((x[0] < 0 || x[0] > 0 || x[0] == 0) && 
+		(x[1] < 0 || x[1] > 0 || x[1] == 0) && 
 		(x[2] < 0 || x[2] > 0 || x[2] == 0))
 	{
 		arr[0][0] = x1;
