@@ -14,7 +14,7 @@ namespace Calculator {
 	using namespace System::Data;
 	using namespace System::Drawing;
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -24,13 +24,13 @@ namespace Calculator {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -79,14 +79,14 @@ namespace Calculator {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -433,7 +433,7 @@ namespace Calculator {
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(415, 32);
 			this->label13->TabIndex = 27;
-			this->label13->Text = L"Введите коэффиценты уравнений";
+			this->label13->Text = L"Р’РІРµРґРёС‚Рµ РєРѕСЌС„С„РёС†РµРЅС‚С‹ СѓСЂР°РІРЅРµРЅРёР№";
 			// 
 			// label14
 			// 
@@ -446,7 +446,7 @@ namespace Calculator {
 			this->label14->Name = L"label14";
 			this->label14->Size = System::Drawing::Size(278, 27);
 			this->label14->TabIndex = 28;
-			this->label14->Text = L"Корни системы уравнений";
+			this->label14->Text = L"РљРѕСЂРЅРё СЃРёСЃС‚РµРјС‹ СѓСЂР°РІРЅРµРЅРёР№";
 			// 
 			// button1
 			// 
@@ -457,7 +457,7 @@ namespace Calculator {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(100, 37);
 			this->button1->TabIndex = 29;
-			this->button1->Text = L"СБРОСИТЬ";
+			this->button1->Text = L"РЎР‘Р РћРЎРРўР¬";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -469,7 +469,7 @@ namespace Calculator {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(100, 37);
 			this->button2->TabIndex = 30;
-			this->button2->Text = L"РЕШИТЬ";
+			this->button2->Text = L"Р Р•РЁРРўР¬";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -481,7 +481,7 @@ namespace Calculator {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(100, 37);
 			this->button3->TabIndex = 31;
-			this->button3->Text = L"ЗАКРЫТЬ";
+			this->button3->Text = L"Р—РђРљР Р«РўР¬";
 			this->button3->UseVisualStyleBackColor = false;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -511,7 +511,7 @@ namespace Calculator {
 			this->checkBox1->Name = L"checkBox1";
 			this->checkBox1->Size = System::Drawing::Size(98, 20);
 			this->checkBox1->TabIndex = 33;
-			this->checkBox1->Text = L"Округлять ";
+			this->checkBox1->Text = L"РћРєСЂСѓРіР»СЏС‚СЊ ";
 			this->checkBox1->UseVisualStyleBackColor = false;
 			this->checkBox1->Click += gcnew System::EventHandler(this, &MyForm::checkBox1_Click);
 			// 
@@ -603,13 +603,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -624,27 +624,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else 
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -664,13 +664,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -685,27 +685,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -725,13 +725,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -746,27 +746,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -786,13 +786,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -807,27 +807,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -847,13 +847,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -868,27 +868,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -908,13 +908,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -929,27 +929,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -969,13 +969,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -990,27 +990,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -1030,13 +1030,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -1051,27 +1051,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -1092,13 +1092,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -1113,27 +1113,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -1154,13 +1154,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -1175,27 +1175,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -1216,13 +1216,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -1237,27 +1237,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -1278,13 +1278,13 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				}
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 			if (count > 1)
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 		}
@@ -1299,27 +1299,27 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 			if (count > 1 || s[1] == ',')
 			{
-				MessageBox::Show("Некорректный ввод!");
+				MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 				return;
 			}
 			for (int g = 1; g < s.size(); g++)
 			{
 				if (s[g] == '+' || s[g] == '-')
 				{
-					MessageBox::Show("Некорректный ввод!");
+					MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 					return;
 				}
 			}
 		}
 		else
 		{
-			MessageBox::Show("Некорректный ввод!");
+			MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 			return;
 		}
 	}
 	else
 	{
-		MessageBox::Show("Некорректный ввод!");
+		MessageBox::Show("РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ!");
 		return;
 	}
 
@@ -1419,7 +1419,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 		arr[2][2] = xxx3;
 		arr[2][3] = c;
 
-		textBox16->Text += "Исходная матрица: " + Environment::NewLine;
+		textBox16->Text += "РСЃС…РѕРґРЅР°СЏ РјР°С‚СЂРёС†Р°: " + Environment::NewLine;
 		for (i = 0; i < n; i++)          
 		{
 			for (j = 0; j <= n; j++)
@@ -1446,7 +1446,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 		}
 
-		textBox16->Text += "Отсортированная матрица: " + Environment::NewLine;
+		textBox16->Text += "РћС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅР°СЏ РјР°С‚СЂРёС†Р°: " + Environment::NewLine;
 		for (i = 0; i < n; i++)         
 		{
 			for (j = 0; j <= n; j++)
@@ -1470,7 +1470,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			}
 		}
 
-		textBox16->Text += "Матрица приведенная к треугольному виду: " + Environment::NewLine;
+		textBox16->Text += "РњР°С‚СЂРёС†Р° РїСЂРёРІРµРґРµРЅРЅР°СЏ Рє С‚СЂРµСѓРіРѕР»СЊРЅРѕРјСѓ РІРёРґСѓ: " + Environment::NewLine;
 		for (i = 0; i < n; i++)           
 		{
 			for (j = 0; j <= n; j++)
@@ -1480,7 +1480,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 			textBox16->Text += Environment::NewLine + Environment::NewLine;
 		}
 					
-		textBox16->Text += "Далее с помощью обратного хода по матрице находим корни уравнений: " + Environment::NewLine;
+		textBox16->Text += "Р”Р°Р»РµРµ СЃ РїРѕРјРѕС‰СЊСЋ РѕР±СЂР°С‚РЅРѕРіРѕ С…РѕРґР° РїРѕ РјР°С‚СЂРёС†Рµ РЅР°С…РѕРґРёРј РєРѕСЂРЅРё СѓСЂР°РІРЅРµРЅРёР№: " + Environment::NewLine;
 
 		for (i = n - 1; i >= 0; i--)        
 		{                     
@@ -1513,7 +1513,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	else 
 	{
-		MessageBox::Show("Система не имеет определенного решения", "Внимание");
+		MessageBox::Show("РЎРёСЃС‚РµРјР° РЅРµ РёРјРµРµС‚ РѕРїСЂРµРґРµР»РµРЅРЅРѕРіРѕ СЂРµС€РµРЅРёСЏ", "Р’РЅРёРјР°РЅРёРµ");
 	}
 }
 
@@ -1602,12 +1602,12 @@ private: System::Void checkBox1_Click(System::Object^ sender, System::EventArgs^
 {
 	if (checkBox1->Checked)
 	{
-		MessageBox::Show("Решение будет производиться с округления переменных до 4 знаков после запятой. Будьте внимательны, если числа дробные и имеют много знаков после запятой, то возможна потеря правильных ответов", "Внимание");
+		MessageBox::Show("Р РµС€РµРЅРёРµ Р±СѓРґРµС‚ РїСЂРѕРёР·РІРѕРґРёС‚СЊСЃСЏ СЃ РѕРєСЂСѓРіР»РµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С… РґРѕ 4 Р·РЅР°РєРѕРІ РїРѕСЃР»Рµ Р·Р°РїСЏС‚РѕР№. Р‘СѓРґСЊС‚Рµ РІРЅРёРјР°С‚РµР»СЊРЅС‹, РµСЃР»Рё С‡РёСЃР»Р° РґСЂРѕР±РЅС‹Рµ Рё РёРјРµСЋС‚ РјРЅРѕРіРѕ Р·РЅР°РєРѕРІ РїРѕСЃР»Рµ Р·Р°РїСЏС‚РѕР№, С‚Рѕ РІРѕР·РјРѕР¶РЅР° РїРѕС‚РµСЂСЏ РїСЂР°РІРёР»СЊРЅС‹С… РѕС‚РІРµС‚РѕРІ", "Р’РЅРёРјР°РЅРёРµ");
 		okr = true;
 	}
 	else
 	{
-		MessageBox::Show("Решение будет производиться без округления переменных", "Внимание");
+		MessageBox::Show("Р РµС€РµРЅРёРµ Р±СѓРґРµС‚ РїСЂРѕРёР·РІРѕРґРёС‚СЊСЃСЏ Р±РµР· РѕРєСЂСѓРіР»РµРЅРёСЏ РїРµСЂРµРјРµРЅРЅС‹С…", "Р’РЅРёРјР°РЅРёРµ");
 		okr = false;
 	}
 }
